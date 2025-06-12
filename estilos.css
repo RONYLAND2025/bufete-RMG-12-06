@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f9f9f9;
+  background-color: #fff8e1; /* color crema suave */
   color: #333;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  background-color: #003366;
+  background-color: #ff6f61; /* coral vivo */
   color: white;
   text-align: center;
   padding: 30px 0;
@@ -43,7 +43,7 @@ body {
 }
 
 .bg-light {
-  background-color: #f0f0f0;
+  background-color: #fff3e0; /* naranja muy suave */
 }
 
 .servicios-lista {
@@ -55,8 +55,9 @@ body {
 .servicios-lista article {
   background: white;
   padding: 15px;
-  border-left: 5px solid #003366;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 5px solid #ff6f61; /* coral vivo */
+  box-shadow: 0 2px 6px rgba(255, 111, 97, 0.3);
+  border-radius: 8px;
 }
 
 .formulario {
@@ -68,33 +69,43 @@ body {
 .campo label {
   font-weight: bold;
   margin-bottom: 5px;
+  color: #ff6f61;
 }
 
 .campo input,
 .campo textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffa07a; /* salmon claro */
   border-radius: 5px;
+  background-color: #fff9f8;
+  transition: border-color 0.3s ease;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border-color: #ff3b1f; /* rojo anaranjado */
+  outline: none;
 }
 
 .btn {
-  background-color: #003366;
+  background-color: #ff6f61;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
   font-size: 1em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #0055aa;
+  background-color: #ff3b1f;
 }
 
 .footer {
-  background-color: #222;
-  color: #eee;
+  background-color: #ff7043; /* naranja fuerte */
+  color: white;
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
